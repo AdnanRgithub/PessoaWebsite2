@@ -1,12 +1,21 @@
 name: "my-website"
 navbar:
-  title: "My Website"
+  title: "Frodo"
   left:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Data Science"
+      href: Data_Science.html
+    - text: "All Topics"
+      href: All_topics.html
 output:
   html_document:
+    theme: cerulean
+    highlight: textmate
+    #include:
+    #  after_body: footer.html
+    #css: style.css
     
     

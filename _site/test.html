@@ -208,20 +208,21 @@ $(document).ready(function () {
 </div>
 
 
-<hr />
-<p>title: “about” author: “Adnan” date: “August 9, 2018”</p>
-<div id="about-my-website." class="section level1">
-<h1>About my website.</h1>
-<div id="this-line-is-a-test-to-see-if-the-r-code-worked." class="section level2">
-<h2>This line is a test to see if the r code worked.</h2>
-<div id="does-wifi-work-in-pluto" class="section level3">
-<h3>Does wifi work in Pluto?</h3>
-<div id="no" class="section level10">
-<p>No</p>
-</div>
-</div>
-</div>
-</div>
+<table style="width:4%;">
+<colgroup>
+<col width="4%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>title: “Hello R Markdown” author: “Awesome Me” date: “2018-08-13” output: html_document</td>
+</tr>
+</tbody>
+</table>
+<p>This is a paragraph in an R Markdown document.</p>
+<p>Below is a code chunk:</p>
+<p>‘’’{r} fit = lm(dist ~ speed, data = cars) b = coef(fit) plot(cars) abline(fit)</p>
+<p>The slope of the regression is ‘r b[1]’.</p>
+<p>‘’’</p>
 
 
 

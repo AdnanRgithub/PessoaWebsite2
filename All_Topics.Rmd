@@ -1,0 +1,5 @@
+---
+
+###Bootstrapping
+###Regressio
+###Central Limit theorem
